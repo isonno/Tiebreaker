@@ -33,10 +33,10 @@ void setup()
 
     pinMode(Switches[i], INPUT);
     digitalWrite(Switches[i], HIGH);  // Enable pullup
-
-    pinMode( Reset, INPUT );
-    digitalWrite( Reset, HIGH );    // Enable pullup
   }
+
+  pinMode( Reset, INPUT );
+  digitalWrite( Reset, HIGH );    // Enable pullup
 
   LightsOff();
 }
